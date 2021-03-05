@@ -1,26 +1,22 @@
 body {
-	background: url("background.png"); /* Links to your background image, which you can also replace with a URL. */
-	background-size: cover; /* Image covers page. */
-	background-repeat: no-repeat; /* Image does not repeat. */
-	background-attachment: fixed; /* Image doesn't move when you scroll up or down. */
-	background-position: top;
+	background-color: #263238; 
 	text-align: center;
-	color: white; /* Text color. */
 	font-family: 'Avenir', sans-serif; /* Font: sans-serif included in case browser doesn't support first option. */
+	border-top: 5px solid #FF869A;
 }
 
 h1 {
 	font-size: 100px;
 	font-weight: bold;
 	font-family: sans-serif;
-
+	color: #AABBC3;
 
 }
 
 h2 {
 	font-size: 40px;
 	font-style: italic;
-
+	color: #FF869A;
 }
 
 /* This just centers the header container vertically on the page. */
@@ -38,7 +34,7 @@ h2 {
 
 /* Styling for icons. */
 .fa {
-	color: white;
+	color: #AABBC3;
 	margin: 10px 5px;
 	font-size: 3em !important;
 }
@@ -47,8 +43,9 @@ h2 {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	color: #AABBC3;
 }
 
 i:hover{
-	color: #11CDD4;
+	color: #FF869A;
 }
